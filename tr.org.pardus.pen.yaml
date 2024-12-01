@@ -18,8 +18,8 @@ modules:
       - -Dscreenshot=false
     sources:
       - type: archive
-        url: https://github.com/pardus/pardus-pen/archive/refs/tags/debian/3.2.0.tar.gz
-        sha256: 157545d976e5264d68f1e8ce93697bd87c79ba8b8292ddde226efc984454d036
+        url: https://github.com/pardus/pardus-pen/archive/refs/tags/debian/3.3.0.tar.gz
+        sha256: 85101c90aed38879af41f5f15971c18a2777b117c1ead22eb926760a875ddd81
     post-install:
       - glib-compile-schemas /app/share/glib-2.0/schemas
 
