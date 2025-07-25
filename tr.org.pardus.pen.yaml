@@ -1,10 +1,11 @@
 app-id: tr.org.pardus.pen
 runtime: org.kde.Platform
-runtime-version: 6.7
+runtime-version: 6.9
 sdk: org.kde.Sdk
 command: pardus-pen
 finish-args:
-  - --socket=x11
+  - --socket=fallback-x11
+  - --socket=wayland
   - --device=dri
   - --share=ipc
 
@@ -13,13 +14,14 @@ modules:
     buildsystem: meson
     build-options:
       append-path: /usr/libexec
+      append-path: /usr/lib/libexec
     config-opts:
       - -Dqt=6
+      - -Dpdf=false
       - -Dscreenshot=false
+      - -Dbackgrounds=/app/backgrounds
     sources:
       - type: archive
-        url: https://github.com/pardus/pardus-pen/archive/refs/tags/debian/3.3.0.tar.gz
-        sha256: 85101c90aed38879af41f5f15971c18a2777b117c1ead22eb926760a875ddd81
-    post-install:
-      - glib-compile-schemas /app/share/glib-2.0/schemas
+        url: https://github.com/pardus/pardus-pen/archive/refs/tags/debian/4.0.0.tar.gz
+        sha256: c5daea30b96202052e942405ccf00081887a12aa703ed448390d65400295648c
 
