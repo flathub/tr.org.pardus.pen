@@ -13,8 +13,7 @@ modules:
   - name: pardus-pen
     buildsystem: meson
     build-options:
-      append-path: /usr/libexec
-      append-path: /usr/lib/libexec
+      append-path: /usr/libexec:/usr/lib/libexec
     config-opts:
       - -Dqt=6
       - -Dpdf=false
