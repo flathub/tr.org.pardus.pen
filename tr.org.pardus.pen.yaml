@@ -21,6 +21,6 @@ modules:
       - -Dbackgrounds=/app/backgrounds
     sources:
       - type: archive
-        url: https://github.com/pardus/pardus-pen/archive/refs/tags/debian/4.1.4.tar.gz
-        sha256: 75b839d5f2747cd87258fef6ec3477e1b9fdbd7150ec051239d64fb84d3b99d7
+        url: https://github.com/pardus/pardus-pen/archive/f3cf748a8c88645952ebbb098085227fcca63c6d.zip
+        sha256: ca5c26d4c7def8b78dbe36cc653136ebb0346ba687311439e127ce19dd2f7431
 
