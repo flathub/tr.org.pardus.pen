@@ -19,8 +19,9 @@ modules:
       - -Dpdf=false
       - -Dscreenshot=false
       - -Dbackgrounds=/app/backgrounds
+      - -Dicon-name=tr.org.pardus.pen
     sources:
       - type: archive
-        url: https://github.com/pardus/pardus-pen/archive/refs/tags/debian/4.1.3.tar.gz
-        sha256: 902cab7266333b523e173bc52640fd4adf3131a3955c47ac90aa14d5a3e97549
+        url: https://github.com/pardus/pardus-pen/archive/232da396f35e07ec5c38c584577138f1621ce0d7.zip
+        sha256: c8376470a9a16599f1d914cba352cfeeade7d808eb288b802282671e8fb37bbd
 
