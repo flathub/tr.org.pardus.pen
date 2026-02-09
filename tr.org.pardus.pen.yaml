@@ -19,8 +19,9 @@ modules:
       - -Dpdf=false
       - -Dscreenshot=false
       - -Dbackgrounds=/app/backgrounds
+      - -Dicon-name=tr.org.pardus.pen
     sources:
       - type: archive
-        url: https://github.com/pardus/pardus-pen/archive/f3cf748a8c88645952ebbb098085227fcca63c6d.zip
-        sha256: ca5c26d4c7def8b78dbe36cc653136ebb0346ba687311439e127ce19dd2f7431
+        url: https://github.com/pardus/pardus-pen/archive/232da396f35e07ec5c38c584577138f1621ce0d7.zip
+        sha256: c8376470a9a16599f1d914cba352cfeeade7d808eb288b802282671e8fb37bbd
 
