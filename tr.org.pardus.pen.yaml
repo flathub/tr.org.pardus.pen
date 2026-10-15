@@ -22,6 +22,6 @@ modules:
       - -Dicon-name=tr.org.pardus.pen
     sources:
       - type: archive
-        url: https://github.com/pardus/pardus-pen/archive/refs/tags/debian/4.1.5.zip
-        sha256: 3fd58d913da3a547c3d521db9bebb19c3a4c5c7356ec117407f413ef789225ee
+        url: https://github.com/pardus/pardus-pen/archive/refs/tags/debian/4.3.0.zip
+        sha256: 03390b0cee33b848664542d71f7cc4f84d42f1e7f508b3f2cab1235fd51ae360
 
